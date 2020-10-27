@@ -28,6 +28,7 @@ $(document).ready(function() {
       $("#neutral").show();
       $("#goodfortune").hide();
       $("#badfortune").hide();
-    }
+    } else (alert("fill in the blanks!"));
+    
   });
 });
