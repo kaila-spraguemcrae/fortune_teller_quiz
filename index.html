@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">  
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Fortune Teller Quiz</title>
+</head>
+<body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1>Take the Quiz!!!</h1>
+    </div>
+    <form id="questions">
+      <div class="form-group">
+        <p>do you feel lucky punk?</p>
+        <input type="checkbox" name="lucky" value="good"> found a 2 dollar bill<br>
+        <input type="checkbox" name="lucky" value="good">a four leaf clover<br>
+        <input type="checkbox" name="lucky" value="good">won at horseshoes<br>
+        <input type="checkbox" name="lucky" value="good">understood the reading<br>
+        <input type="checkbox" name="lucky" value="good">didnt have to ride the bus<br>
+      </div>
+      <div class="form-group">
+        <p>or did you wake up on the wrong side of the bed?</p>
+        <input type="checkbox" name="un-lucky" value="bad">broke a mirror<br>
+        <input type="checkbox" name="un-lucky" value="bad">spilt salt<br>
+        <input type="checkbox" name="un-lucky" value="bad">tripped over black cat<br>
+        <input type="checkbox" name="un-lucky" value="bad">Walked under a ladder<br>
+        <input type="checkbox" name="un-lucky" value="bad">had to Ride the bus.<br>
+      </div>
+      <button type="submit">See your Fortune </button>
+    </form>
+    <span id="goodfortune">you rock </span>
+    <span id="badfortune">you suck </span>
+    <span id="neutral">you are just kinda Meh... </span>
+  </div>
+</body>
+</html>
